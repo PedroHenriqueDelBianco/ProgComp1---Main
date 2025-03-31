@@ -9,7 +9,7 @@ body {
 }
 
 header{
-    background: #28a745;
+    background: #582399;
     color: white;
     padding: 15px 0;  
     font-size: 24px;
@@ -17,7 +17,7 @@ header{
 }
 
 nav {
-    background-color: #007bff;
+    background-color: #522679;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     font-size: 18px;
-    background: #005663;
+    background: #7f5b96;
     border-radius: 5px;
 
   
@@ -61,4 +61,15 @@ img {
 }
 h2 {
     text-align: center;
+}
+table tr td { /* se nn colocar o "table tr" o td seria aplicado em todos os tds q ele encontrasse */
+    padding: 20px;
+}
+table {
+    margin: 0 auto; /*esp. externo de 0 acima e abaixo automatico esquerda e direita*/
+}
+.campos {
+    margin: 20px;
+    border: 1px solidblack;
+    
 }
